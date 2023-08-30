@@ -12,8 +12,6 @@
   font-size: 45px;
   text-align: center;
   letter-spacing: 10px;
-  /* color: rgba(218, 218, 175, 0.603); */
-  /* color: #999900; */
   color: #ff5733;
 }
 .personal-info {
@@ -23,4 +21,25 @@
   font-size: 20px;
   padding: 10px 15px;
   color: rgba(40, 38, 38, 0.756);
+}
+.social-media-btn {
+  background-color: #fff;
+  margin: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-btn button {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 8px;
+  outline: 3px solid #ff5733;
+}
+.social-media-btn button:hover {
+  background-color: #deb4ab;
+  padding: 10px 15px;
+  color: black;
+  font-size: 18px;
+  outline: 0;
 }
