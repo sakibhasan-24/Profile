@@ -4,8 +4,14 @@
 
 .card-container {
   width: 400px;
-  border: 3px solid red;
-  margin: 30px auto;
+  box-shadow: 20px 15px 14px 16px #c6cdf0;
+  margin: 60px auto;
+  position: relative;
+}
+.card-container:hover {
+  cursor: pointer;
+  /* width: 400px; */
+  box-shadow: 20px 15px 34px 26px #42434b;
 }
 .card-container h1 {
   font-family: "Love Ya Like A Sister", cursive;
@@ -17,10 +23,26 @@
 .personal-info {
   margin-right: 20px;
 }
+.personal-info img {
+  box-shadow: 10px 10px 12px #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -50px;
+}
 .personal-info p {
+  margin-left: 30px;
   font-size: 20px;
   padding: 10px 15px;
   color: rgba(40, 38, 38, 0.756);
+}
+.personal-info p::first-letter {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .social-media-btn {
   background-color: #fff;
