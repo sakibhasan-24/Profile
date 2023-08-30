@@ -1,0 +1,26 @@
+.container {
+  margin-top: 100px;
+}
+
+.card-container {
+  width: 500px;
+  border: 3px solid red;
+  margin: auto auto;
+}
+.card-container h1 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 10px;
+  /* color: rgba(218, 218, 175, 0.603); */
+  /* color: #999900; */
+  color: #ff5733;
+}
+.personal-info {
+  margin-right: 20px;
+}
+.personal-info p {
+  font-size: 20px;
+  padding: 10px 15px;
+  color: rgba(40, 38, 38, 0.756);
+}
