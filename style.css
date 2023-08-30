@@ -43,3 +43,23 @@
   font-size: 18px;
   outline: 0;
 }
+
+.hire-me {
+  /* background-color: rgba(211, 222, 153, 0.728); */
+  /* background: linear-gradient(); */
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  border: 0;
+  font-weight: 900;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 40px;
+  padding: 20px 95px;
+  /* box-shadow: 10px 12px 10px linear-gradient(to right, #fc5c7d, #6a82fb); */
+  box-shadow: 10px 12px 14px #d39da8;
+}
