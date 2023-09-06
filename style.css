@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 .container {
   margin-top: 100px;
 }
@@ -108,4 +111,22 @@
 .hr {
   height: 10px;
   margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 3rem 0;
+    padding: 0;
+  }
+  .card-container {
+    max-width: 40rem;
+    margin: 0;
+    /* margin-right: 2rem; */
+  }
+  .personal-info img {
+    width: 6rem;
+    height: 6rem;
+    left: 27rem;
+    top: 1rem;
+  }
 }
